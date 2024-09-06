@@ -1,0 +1,134 @@
+.property-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+.property-card{
+    border: 2px solid #CDE6FF;
+    width: 531px;
+    height: 531px;
+    border-radius: 36px;
+    
+}
+.center-card-property{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 60%;
+}
+.card-head{
+    font-size: 20px;
+    font-weight: 500;
+    width: 224px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.card-one{
+    width: 127px;
+    height: 45px;
+    border-radius: 155px;
+    border: 1px solid #CDE6FF;
+    background-color: white; 
+    transition: background-color 0.3s ease; 
+}
+.margin-card{
+    margin-left: 10px;
+}
+.card-one:hover {
+    background-color: #012B55;
+    color: white;
+}
+
+.selected {
+    background-color: #012B55; /* Background color when selected */
+    color: #fff; /* Optional: Change text color when selected */
+    border: 1px solid #012B55; /* Optional: Add border color for selected state */
+}
+.form-card{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.input-style{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 426px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #78BCFF;
+    color: #56A2ED;
+    outline: none;
+    font-size: 16px;
+}
+.input-style::placeholder {
+    color: #56A2ED; /* Change this to the color you want */
+    font-size: 16px; /* Adjust the font size */
+    
+}
+.margin-top-card{
+    margin-top: 30px;
+}
+.submit-button{
+    width: 449px;
+    height: 57px;
+    background-color: #27B974;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.main-left-card{
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    
+}
+.help-head{
+    font-size: 24px;
+    padding-top: 15px;
+}
+.help-head2{
+    font-size: 24px;
+}
+.center-card-property2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 60%;
+}
+.property-head2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #012B55;
+
+}
+
+.label-style{
+    color: #4077AE;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-bottom: 3px;
+}
+
+.input-name-style{
+    width: 209px;
+    height: 47px;
+    border: 1px solid #86C2FF;
+    border-radius: 8px;
+    padding-left: 5px;
+
+}
+.email-input-style{
+    width: 433px;
+    height: 47px;
+    border: 1px solid #86C2FF;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.message-input-style{
+    width: 433px;
+    height: 138px;
+    border: 1px solid #86C2FF;
+    border-radius: 8px;
+    padding-left: 10px;
+}

@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'Gladiora';
+    src: url('../assets//gladiora-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.body{
+    margin:unset !important;
+    font-family: 'Gladiora', sans-serif;
+}
